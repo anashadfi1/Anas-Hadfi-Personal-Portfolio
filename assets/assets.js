@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -7,6 +7,17 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
+import r_icon from './r_icon.png';
+import powerbi_icon from './powerbi_icon.png';
+import sklearn_icon from './sklearn_icon.png';
+import js_icon from './js_icon.png';
+import numpy_icon from './numpy-icon.png';
+import fastapi_icon from './fastapi-icon.png';
+import tailwind_icon from './tailwind_icon.png';
+import github_icon from './github_icon.png';
+import python_icon from './python_icon.png';
+import react_icon from './react_icon.png';
+import next_icon from './next_icon.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
@@ -35,8 +46,18 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-
 export const assets = {
+    js_icon,
+    tailwind_icon,
+    powerbi_icon,
+    fastapi_icon,
+    github_icon,
+    react_icon,
+    next_icon,
+    python_icon,
+    numpy_icon,
+    sklearn_icon,
+    r_icon,
     user_image,
     code_icon,
     code_icon_dark,
@@ -107,11 +128,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'R, Python, Pandas, Numpy, scikit-learn, FastAPi, JavaScript, React Js, Next Js,SQL, Excel, PowerBI' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Software and Networks engineer, specialized in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.js_icon,assets.react_icon,assets.next_icon,assets.tailwind_icon ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.r_icon,assets.vscode, assets.github_icon
 ];

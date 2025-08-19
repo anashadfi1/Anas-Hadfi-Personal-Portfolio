@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
@@ -21,8 +22,8 @@ const Navbar = () => {
         </a>
         <ul
           ref={sideMenuRef}
-          className='flex md:hidden flex-col gap-4 py-20 px-10 fixed right-0 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition-transform duration-500 will-change-transform'
-          style={{ transform: 'translateX(16rem)' }} // hidden by default
+          className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full 
+          px-12 py-3 bg-white shadow:sm bg-opacity-50'
         >
             <li> <a className='font-Ovo' href="#top">Home</a></li>
             <li> <a className='font-Ovo' href="#about">About me</a></li>
@@ -39,7 +40,8 @@ const Navbar = () => {
             </button>
         </div>
 
-        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-0 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500'> 
+        <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen 
+        bg-rose-50 transition duration-500'> 
           <div className='absolute right-6 top-6' onClick={closeMenu}>
             <Image src={assets.close_black} alt='' className='w-5 cursor-pointer'/>
           </div>
