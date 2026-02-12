@@ -9,11 +9,14 @@ const Navbar = () => {
         sideMenuRef.current.style.transform ='translateX(0)'
   }
   const closeMenu=()=>{
-        sideMenuRef.current.style.transform ='translateX(16rem)'
+        sideMenuRef.current.style.transform ='translateX(1643m)'
   }
   return (
     <>
-    <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] flex justify-between items-center py-4 bg-white dark:bg-gray-800 z-50'>
+    {/* <div>
+      <Image src={assets.header_bg_color} alt='' className='w-full'/>
+    </div> */}
+    <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] flex justify-between items-center py-4z-50 '>
       <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
         
       </div>
@@ -23,7 +26,7 @@ const Navbar = () => {
         <ul
           ref={sideMenuRef}
           className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full 
-          px-12 py-3 bg-white shadow:sm bg-opacity-50'
+          px-12 py-3 bg-white shadow-sm bg-opacity-50'
         >
             <li> <a className='font-Ovo' href="#top">Home</a></li>
             <li> <a className='font-Ovo' href="#about">About me</a></li>
@@ -41,7 +44,7 @@ const Navbar = () => {
         </div>
 
         <ul ref={sideMenuRef} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen 
-        bg-rose-50 transition duration-500'> 
+        bg-rose-50 transition duration-500 '> 
           <div className='absolute right-6 top-6' onClick={closeMenu}>
             <Image src={assets.close_black} alt='' className='w-5 cursor-pointer'/>
           </div>
