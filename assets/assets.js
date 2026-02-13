@@ -8,7 +8,7 @@ import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
 import r_icon from './r_icon.png';
-import powerbi_icon from './powerbi_icon.png';
+import powerbi from './Power_BI.jpg';
 import sklearn_icon from './sklearn_icon.png';
 import js_icon from './js_icon.png';
 import numpy_icon from './numpy-icon.png';
@@ -46,10 +46,14 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import pytorch_logo from './pytorch-logo.png'
+import git_logo from './git-logo.png'
 export const assets = {
+    git_logo,
+    pytorch_logo,
     js_icon,
     tailwind_icon,
-    powerbi_icon,
+    powerbi,
     fastapi_icon,
     github_icon,
     react_icon,
@@ -134,5 +138,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.js_icon,assets.react_icon,assets.next_icon,assets.tailwind_icon ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.r_icon,assets.vscode, assets.github_icon
+    assets.js_icon,assets.react_icon,assets.next_icon,assets.tailwind_icon ,assets.python_icon, assets.numpy_icon,assets.fastapi_icon,assets.sklearn_icon,assets.pytorch_logo,assets.r_icon, assets.git_logo, assets.powerbi
 ];
